@@ -5,13 +5,8 @@
 #Tip: highlight a line, press Ctrl+Shift+P and then "Terminal: Run Selected Text in Active Terminal" to run the line of code!
 
 #Step 1: Use a name no longer then five charactors all LOWERCASE.  Your initials would work well if working in the same sub as others.
-declare monitoringHackName=""
-declare location="westurope"
-
-if [ $monitoringHackName == "" ]; then
-    echo "monitoringHackName not specified!";
-    exit 1
-fi
+declare monitoringHackName="yourinitialshere"
+declare location="westeurope"
 
 #Step 2: Create ResourceGroup after updating the location to one of your choice. Use get-AzureRmLocation to see a list
 #Create a new Resource Group with YOUR name!

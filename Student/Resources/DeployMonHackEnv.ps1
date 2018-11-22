@@ -4,12 +4,7 @@
 #Tip: click on a line and press "F8" to run the line of code
 
 #Step 1: Use a name no longer then five charactors all lowercase.  Your initials would work well if working in the same sub as others.
-$MonitoringHackName = ''
-
-if($MonitoringHackName -eq "")
-{
-    throw "MonitoringHackName was not specified!";
-}
+$MonitoringHackName = 'your-initials-here'
 
 #Step 2: Create ResourceGroup after updating the location to one of your choice. Use get-AzureRmLocation to see a list
 Connect-AzureRmAccount
